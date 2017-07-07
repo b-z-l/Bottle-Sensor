@@ -20,10 +20,24 @@
 
 ![]()
 
-### Wiring
+### Wiring Sensors
+![Sensor wiring diagram]{}
+5. Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 must share 5V and GND connections from the screw terminal. 
 
-5. Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 must share 5V and GND connections from the screw terminal. Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal. Next, do the same with the 5V wires (red). 
+Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal. 
+
+![Twisting together wires]()
+![Screw wiries into terminal]()
+
+Next, do the same with the 5V wires (red). 
 
 **NOTE:** Do NOT wire the two yellow wires together!
 
-The yellow wire from the Shinyei goes to terminal 5. The middle wire from the DHT22 (yellow or purple) goes to pin 
+The yellow wire from the Shinyei goes to terminal 5. The middle wire from the DHT22 (yellow or purple) goes to terminal 6.
+
+![Completed sensor wiring]()
+
+### Wiring the Datalogging Shield
+
+![Datalogger Wiring diagram]()
+
