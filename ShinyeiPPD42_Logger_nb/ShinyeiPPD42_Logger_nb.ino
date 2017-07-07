@@ -1,17 +1,11 @@
-
-
-
 /*
-  Interface to Shinyei Model PPD42NS Particle Sensor
-  Program by Christopher Nafis
-  Written April 2012
-
-  http://www.seeedstudio.com/depot/grove-dust-sensor-p-1050.html
-  http://www.sca-shinyei.com/pdf/PPD42NS.pdf
+  Shinyei PPD42 Dust Sensor Logger
+  Temperature sensing from a DHT22
+  Datalogging with an Adafruit Ultimate logging shield.
 
   JST Pin 1 (Black Wire)  => Arduino GND
+  JST Pin 2 (Yellow wire) => Arduino Digital Pin 5
   JST Pin 3 (Red wire)    => Arduino 5VDC
-  JST Pin 4 (Yellow wire) => Arduino Digital Pin 8
 */
 #include "DHT.h"
 #include "RTClib.h"
@@ -131,7 +125,7 @@ void logData() {
   Serial.print(F(", "));
   Serial.print(humid);
   Serial.print(F(", "));
-  
+
   // Log PM
   Serial.print(ratio);
   Serial.print(F(", "));
@@ -197,9 +191,9 @@ void setup() {
   writeHeader();
   dht.begin();
 
- // Blink for joy, things are working.
+  // Blink for joy, things are working.
   blink(10);
-  
+
   // Start on a multiple of the sample interval.
   // This will only be useful if we use a button and an ISR
   logTime = millis() / SAMPLE_INTERVAL_MS + 1;
