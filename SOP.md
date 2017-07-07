@@ -2,16 +2,17 @@
 
 ## Bill of Materials
 
-Item	 |	Cost(USD)| Source
+Item	 |                                       	Cost(USD)     | Source
 --------|---------------------------------------|------------
 Shinyei PPD42NJ Dust Sensor                      	| $10|
 Arduino Pro Micro, ATMega32U4-5V 16Mhz 	        	|$4|
 Mini Datalogger with microSD card reader and RTC  |$4|
-Datalogger Adapter                                |$6|
+Datalogger/Screw Terminal Adapter                 |$6|
 MicroSD Card	1                                  | $5|
 Plastic enclosure	                               | $6|
 USB Cable	                                       | $5|
 Charger	                                          |$8|
+#4 Screws x 3
 Battery		                                        |$25|
 Total | |
 
@@ -67,5 +68,14 @@ The yellow wire from the Shinyei goes to terminal 5. The middle wire from the DH
 ![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6268.JPG)
 
 ![Completed wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6276.JPG)
+
+## Operation
+
+### Blinking lights?
+No? Check wiring first.
+
+### Pulling Data
+Naming scheme
+
 
 ![Assembled sensor](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6286.JPG)
