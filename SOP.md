@@ -2,6 +2,11 @@
 
 ## Bill of Materials
 
+## Software
+
+The Arduino sketch responsible for taking readings from sensors and logging them to the SD card can be found here:  
+https://github.com/b-z-l/Bottle-Sensor/blob/master/ShinyeiPPD42_Logger/ShinyeiPPD42_Logger.ino
+
 ## Assembly
 
 1. Begin by snapping the Shinyei PPD42 into place in the rear of the insert. Make sure the sensor is held by the retaining clips and sits flush against the plastic holder.
@@ -23,6 +28,7 @@
 
 ### Wiring Sensors
 ![Sensor wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/sensor_wiring.jpg)
+
 5. Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 must share 5V and GND connections from the screw terminal. 
 
 Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal. 
