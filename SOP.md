@@ -12,9 +12,11 @@ MicroSD Card	1                                  | $5|
 Plastic enclosure	                               | $6|
 USB Cable	                                       | $5|
 Charger	                                          |$8|
-#4 Screws x 3
+#4 Screws x 5
 Battery		                                        |$25|
 Total | |
+
+**Note:** Power supply note
 
 ## Software
 
