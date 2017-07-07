@@ -10,7 +10,7 @@
 
 2. Secure the Shinyei in place with a screw. Only make this snug, don't overtighten.
 
-![]()
+![Secure Shinyei PPD42 with a screw](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6278.JPG)
 
 3. Mate the Pro Micro and the adapter shield together so they snap into place. Orient the USB port on the Pro Micro with the "USB" label on the adapter board.
 
@@ -21,13 +21,12 @@
 ![]()
 
 ### Wiring Sensors
-![Sensor wiring diagram]{}
+![Sensor wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/sensor_wiring.jpg)
 5. Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 must share 5V and GND connections from the screw terminal. 
 
 Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal. 
 
-![Twisting together wires]()
-![Screw wiries into terminal]()
+![Twisting together wires and screwing into terminals](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6273.JPG)
 
 Next, do the same with the 5V wires (red). 
 
@@ -39,5 +38,14 @@ The yellow wire from the Shinyei goes to terminal 5. The middle wire from the DH
 
 ### Wiring the Datalogging Shield
 
-![Datalogger Wiring diagram]()
+![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/datashield_wiring.jpg)
 
+![Wiring the logging shield to the adapter board](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6265.JPG)
+
+![Wiring power and GND](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6267.JPG)
+
+![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6268.JPG)
+
+![Completed wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6276.JPG)
+
+![Assembled sensor](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6286.JPG)
