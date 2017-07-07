@@ -2,6 +2,19 @@
 
 ## Bill of Materials
 
+Item	 |	Cost(USD)| Source
+--------|---------------------------------------|------------
+Shinyei PPD42NJ Dust Sensor                      	| $10|
+Arduino Pro Micro, ATMega32U4-5V 16Mhz 	        	|$4|
+Mini Datalogger with microSD card reader and RTC  |$4|
+Datalogger Adapter                                |$6|
+MicroSD Card	1                                  | $5|
+Plastic enclosure	                               | $6|
+USB Cable	                                       | $5|
+Charger	                                          |$8|
+Battery		                                        |$25|
+Total | |
+
 ## Software
 
 The Arduino sketch responsible for taking readings from sensors and logging them to the SD card can be found here:  
