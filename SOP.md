@@ -2,7 +2,7 @@
 
 ## Bill of Materials
 
-Item	                                           | Cost(USD) | Source
+Item	                                           | Cost (USD)| Source
 -------------------------------------------------|----------:|-------------------------------------------------------------------------
 Shinyei PPD42NJ Dust Sensor                      |      $10  | [Aliexpress](https://www.aliexpress.com/item/SHINYEI-dust-sensor-PPD42NS-PPD4NS-PPD42NJ-dust-sensor-with-cable/32305336628.html) or [Ebay](http://www.ebay.com/itm/ORIGINAL-Brand-New-SHINYEI-Dust-Sensor-PPD42NJ-PPD42NS-with-Cable-/271927031774)
 DHT22 Temperature Humidity Sensor                |       $3  | [Aliexpress](https://www.aliexpress.com/item/50PCS-LOT-DHT22-AM2302-Digital-Temperature-and-Humidity-Sensor-DHT22-Free-shiping/1699337492.html)
@@ -78,12 +78,13 @@ SCL - yellow
 ![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/datashield_wiring.jpg)  
 
 ![Wiring the logging shield to the adapter board](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6265.JPG)  
-Adapter board wiring.
+Adapter board wiring.  
+
 ![Wiring power and GND](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6267.JPG)  
 5V and GND on the datalogger.
 
 ![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6268.JPG)  
-Wiring of SCL, SDA, 13, 12, 11,10  
+Wiring of pins SCL, SDA, 13, 12, 11, 10  
 
 ![Completed wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6276.JPG)  
 Check your completed wiring against the wiring diagram, then attach the shield to the back of the Shinyei using velcro or rubber bands.
