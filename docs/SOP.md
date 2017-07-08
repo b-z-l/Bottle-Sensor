@@ -31,28 +31,28 @@ The Arduino sketch responsible for taking readings from sensors and logging them
 
 ![Snap the PPD42 into the back of the ](images/shinyei_insert.jpg)  
 
-![Make sure it snaps in securely!](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/shinyei_clip.gif)
+![Make sure it snaps in securely!](images/shinyei_clip.gif)
 
 2. Secure the Shinyei in place with a screw. Only make this snug, don't overtighten.
 
-![Securing Shinyei PPD42 with a #4 screw](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/secure_shinyei.jpg)
+![Securing Shinyei PPD42 with a #4 screw](images/secure_shinyei.jpg)
 
 3. If required, mate the Pro Micro and the adapter shield together so they snap into place. Orient the USB port on the Pro Micro with the "USB" label on the adapter board.
 
-![Mate the Pro Micro and adapter board together](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/arduino_adapter.jpg)
+![Mate the Pro Micro and adapter board together](images/arduino_adapter.jpg)
 
 4. Screw the adapter board onto the front of the plastic insert so that the Pro Micro sits inside the unit.
 
-![Screw the adapter into the chassis](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/screw_adapter.JPG)
+![Screw the adapter into the chassis](images/screw_adapter.JPG)
 
 ## Wiring Sensors
-![Sensor wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/sensor_wiring.jpg)
+![Sensor wiring diagram](images/sensor_wiring.jpg)
 
 Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 must share 5V and GND connections from the screw terminal. 
 
 5. Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal. 
 
-![Twisting together wires and screwing into terminals](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/sensor_hookuo.JPG)
+![Twisting together wires and screwing into terminals](images/sensor_hookuo.JPG)
 
 6. Next, do the same with the 5V wires (red). 
 
@@ -60,7 +60,7 @@ Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 
 
 7. The yellow wire from the Shinyei goes to the terminal labeled 5. The middle wire from the DHT22 (yellow or purple) goes to terminal 6.
 
-![Completed sensor wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/screwterm_wiring.jpg)
+![Completed sensor wiring](images/screwterm_wiring.jpg)
 
 ## Connect the Datalogging Shield
 
@@ -76,18 +76,18 @@ SCL - yellow
 11 - orange  
 10 - blue  
 
-![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/datashield_wiring.jpg)  
+![Datalogger Wiring diagram](images/datashield_wiring.jpg)  
 
-![Wiring the logging shield to the adapter board](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/logger_wiring.JPG)  
+![Wiring the logging shield to the adapter board](images/logger_wiring.JPG)  
 Adapter board wiring.  
 
-![Wiring power and GND](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/power_gnd_dl.jpg)  
+![Wiring power and GND](images/power_gnd_dl.jpg)  
 5V and GND on the datalogger.
 
-![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/data_dk.jpg)  
+![Wiring pins 10, 11, 12, 13, SDA, and SCL](images/data_dk.jpg)  
 Wiring of pins SCL, SDA, 13, 12, 11, 10  
 
-![Completed wiring]https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/dl_complete.jpg)  
+![Completed wiring](images/dl_complete.jpg)  
 Check your completed wiring against the wiring diagram, then attach the shield to the back of the Shinyei using velcro or rubber bands.
 
 ## Operation
@@ -105,4 +105,4 @@ If no blinking light is observed when the sensor is powered up, the first thing 
 
 Every time the device is powered on a new file is created with the naming scheme data00.txt, data01.txt, etc.
 
-![Assembled sensor](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/sensor_complete.jpg)
+![Assembled sensor](images/sensor_complete.jpg)
