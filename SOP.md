@@ -3,20 +3,19 @@
 ## Bill of Materials
 
 Item	                                           | Cost(USD) | Source
--------------------------------------------------|-----------|-------------------------------------------------------------------------
-Shinyei PPD42NJ Dust Sensor                      |      $10  | [Link](https://www.aliexpress.com/item/SHINYEI-dust-sensor-PPD42NS-PPD4NS-PPD42NJ-dust-sensor-with-cable/32305336628.html) or [Link](http://www.ebay.com/itm/ORIGINAL-Brand-New-SHINYEI-Dust-Sensor-PPD42NJ-PPD42NS-with-Cable-/271927031774)
-DHT22 Temperature Humidity Sensor                |       $3  | [Link](https://www.aliexpress.com/item/50PCS-LOT-DHT22-AM2302-Digital-Temperature-and-Humidity-Sensor-DHT22-Free-shiping/1699337492.html)
-Arduino Pro Micro, ATMega32U4-5V 16Mhz 	         |       $4  | [Link](http://www.ebay.com/itm/332166215715)
-Mini Datalogger with microSD card reader and RTC |       $4  | [Link](http://www.ebay.com/itm/112160970687)
-Datalogger/Screw Terminal Adapter                |       $6  | 
-MicroSD Card                                     |       $5  | [Link](http://www.ebay.com/itm/New-Sandisk-4GB-Class-4-MicroSD-MicroSDHC-SD-SDHC-Flash-Memory-Card-With-Adapter-/190889743342)
+-------------------------------------------------|----------:|-------------------------------------------------------------------------
+Shinyei PPD42NJ Dust Sensor                      |      $10  | [Aliexpress](https://www.aliexpress.com/item/SHINYEI-dust-sensor-PPD42NS-PPD4NS-PPD42NJ-dust-sensor-with-cable/32305336628.html) or [Ebay](http://www.ebay.com/itm/ORIGINAL-Brand-New-SHINYEI-Dust-Sensor-PPD42NJ-PPD42NS-with-Cable-/271927031774)
+DHT22 Temperature Humidity Sensor                |       $3  | [Aliexpress](https://www.aliexpress.com/item/50PCS-LOT-DHT22-AM2302-Digital-Temperature-and-Humidity-Sensor-DHT22-Free-shiping/1699337492.html)
+Arduino Pro Micro, ATMega32U4-5V 16Mhz 	         |       $4  | [Ebay](http://www.ebay.com/itm/332166215715)
+Mini Datalogger with microSD card reader and RTC |       $4  | [Ebay](http://www.ebay.com/itm/112160970687)
+MicroSD Card                                     |       $5  | [Ebay](http://www.ebay.com/itm/New-Sandisk-4GB-Class-4-MicroSD-MicroSDHC-SD-SDHC-Flash-Memory-Card-With-Adapter-/190889743342)
+Datalogger/Screw Terminal Adapter                |       $6  |
 Plastic Chassis                                  |       $6  | 
-USB Charger	                                     |       $8  | [Link](https://www.digikey.com/product-detail/en/qualtek/QFAW-05-05/Q971-ND/6412289) or [Link](https://www.sparkfun.com/products/11456)
+USB Charger	                                     |       $6  | [Digikey](https://www.digikey.com/product-detail/en/qualtek/QFAW-05-05/Q971-ND/6412289) or [Sparkfun](https://www.sparkfun.com/products/11456)
 #4-40 3/8" Self-Tapping Screws                   |       $1  | [Link](http://www.homedepot.com/p/Everbilt-4-x-3-8-in-Zinc-Plated-Steel-Phillips-Pan-Head-Sheet-Metal-Screw-16-per-Pack-812661/204275188)
-Battery		                                       |      $30  | [Link](http://www.ebay.com/itm/Anker-PowerCore-10000-Portable-Charger-One-of-the-Smallest-and-Lightest-10000mA/331901490667)
-**Total**                                        |    **$82**|
-**Total w/o battery or USB charger/cable**       |    **$39**|
-
+Battery		                                       |      $30  | [Ebay](http://www.ebay.com/itm/Anker-PowerCore-10000-Portable-Charger-One-of-the-Smallest-and-Lightest-10000mA/331901490667)
+**Total**                                        |    **$75**|
+**Total w/o battery or USB charger**             |    **$39**|  
 
 
 **Note:** The Shinyei PPD42 is sensitive to small fluctuations in voltage, so using quality power supply components is recommended. Because the quality of USB chargers vary widely it is recommended to use a USB battery or charger from a major manufacturer.  [See here for more information](http://www.righto.com/2012/10/a-dozen-usb-chargers-in-lab-apple-is.html).
