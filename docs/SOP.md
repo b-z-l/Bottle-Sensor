@@ -46,7 +46,7 @@ https://github.com/b-z-l/Bottle-Sensor/blob/master/ShinyeiPPD42_Logger/ShinyeiPP
 ![Screw the adapter into the chassis](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/screw_adapter.JPG)
 
 ## Wiring Sensors
-![Sensor wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/sensor_wiring.jpg)
+![Sensor wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/sensor_wiring.jpg)
 
 Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 must share 5V and GND connections from the screw terminal. 
 
@@ -76,7 +76,7 @@ SCL - yellow
 11 - orange  
 10 - blue  
 
-![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/datashield_wiring.jpg)  
+![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/datashield_wiring.jpg)  
 
 ![Wiring the logging shield to the adapter board](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/logger_wiring.JPG)  
 Adapter board wiring.  
