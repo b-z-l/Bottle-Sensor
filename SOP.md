@@ -78,12 +78,12 @@ SCL - yellow
 ![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/datashield_wiring.jpg)  
 
 ![Wiring the logging shield to the adapter board](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6265.JPG)  
-The order of the pins
-
+Adapter board wiring.
 ![Wiring power and GND](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6267.JPG)  
-5V and GND wiring
+5V and GND on the datalogger.
 
 ![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6268.JPG)  
+Wiring of SCL, SDA, 13, 12, 11,10  
 
 ![Completed wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6276.JPG)  
 Check your completed wiring against the wiring diagram, then attach the shield to the back of the Shinyei using velcro or rubber bands.
@@ -95,9 +95,9 @@ You should be ready to go! Make sure a [properly formatted](https://www.sdcard.o
 
 ### Blinking lights?
 
-When the device is powered on, sucessful logging is indicated by an LED which **blinks 10 times**. A data record is logged every 30 seconds, this is indicated by a single LED blink. 
+When the device is powered on, sucessful initialization is indicated by an LED which **blinks 10 times**. A data record is logged every 30 seconds, indicated by a single LED blink. 
 
-If no blinking light is observed when the sensor is powered up, the first thing to check is for the correct wiring of the SD card shield.
+If no blinking light is observed when the sensor is powered up, the first thing to check is for the correct wiring of the SD card shield and that the card is well seated in it's holder.
 
 ### Pulling Data
 
