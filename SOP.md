@@ -18,7 +18,7 @@ Battery		                                       |      $30  | [Ebay](http://www.
 **Total w/o battery or USB charger**             |    **$39**|  
 
 
-**Note:** The Shinyei PPD42 is sensitive to small fluctuations in voltage, so using quality power supply components is recommended. Because the quality of USB chargers vary widely it is recommended to use a USB battery or charger from a major manufacturer.  [See here for more information](http://www.righto.com/2012/10/a-dozen-usb-chargers-in-lab-apple-is.html).
+**Note:** The Shinyei PPD42 is sensitive to small fluctuations in voltage, so using quality power supply components is recommended. Because the quality of USB chargers vary widely it is recommended to use a USB battery or charger from a major manufacturer.  [See here for more information on USB charger quality](http://www.righto.com/2012/10/a-dozen-usb-chargers-in-lab-apple-is.html).
 
 ## Software
 
@@ -44,24 +44,26 @@ https://github.com/b-z-l/Bottle-Sensor/blob/master/ShinyeiPPD42_Logger/ShinyeiPP
 
 ![](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6240.JPG)
 
-### Wiring Sensors
+## Wiring Sensors
 ![Sensor wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/sensor_wiring.jpg)
 
-5. Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 must share 5V and GND connections from the screw terminal. 
+Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 must share 5V and GND connections from the screw terminal. 
 
-Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal. 
+5. Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal. 
 
 ![Twisting together wires and screwing into terminals](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6273.JPG)
 
-Next, do the same with the 5V wires (red). 
+6. Next, do the same with the 5V wires (red). 
 
 **NOTE:** Do NOT wire the two yellow wires together!
 
-The yellow wire from the Shinyei goes to terminal 5. The middle wire from the DHT22 (yellow or purple) goes to terminal 6.
+7. The yellow wire from the Shinyei goes to the terminal labeled 5. The middle wire from the DHT22 (yellow or purple) goes to terminal 6.
 
 ![Completed sensor wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6275.JPG?raw=true)
 
-### Wiring the Datalogging Shield
+## Connect the Datalogging Shield
+
+Wiring the datalogger consists of wiring the labeled femaled headers on the datalogger adapter with the corresponding pin on the logging shield.
 
 ![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/datashield_wiring.jpg)
 
@@ -72,14 +74,21 @@ The yellow wire from the Shinyei goes to terminal 5. The middle wire from the DH
 ![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6268.JPG)
 
 ![Completed wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6276.JPG)
+Check your completed wiring against the wiring diagram, then attach the shield to the back of the Shinyei using velcro or rubber bands.
 
 ## Operation
 
+You should be ready to go! Make sure a [properly formatted](https://www.sdcard.org/downloads/formatter_4/) SD card is plugged in all the way and plug the Pro Micro into USB power.
+
+
 ### Blinking lights?
-No? Check wiring first.
+
+When the device is powered on, sucessful logging is indicated by an LED which **blinks 10 times**. A data record is logged every 30 seconds, this is indicated by a single LED blink. 
+
+If no blinking light is observed when the sensor is powered up, the first thing to check is for the correct wiring of the SD card shield.
 
 ### Pulling Data
-Naming scheme
 
+Every time the device is powered on a new file is created with the naming scheme data00.txt, data01.txt, etc.
 
 ![Assembled sensor](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6286.JPG)
