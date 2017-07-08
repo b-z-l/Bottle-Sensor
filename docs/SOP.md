@@ -29,20 +29,21 @@ https://github.com/b-z-l/Bottle-Sensor/blob/master/ShinyeiPPD42_Logger/ShinyeiPP
 
 1. Begin by snapping the Shinyei PPD42 into place in the rear of the insert. Make sure the sensor is held by the retaining clips and sits flush against the plastic holder.
 
-![](https://raw.githubusercontent.com/b-z-l/Bottle-Sensor/master/resources/SOP%20images/shinyei_insert.jpg)
-![Make sure it snaps in securely!](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/460f16bbf04a518b9f902d04d744144d.gif)
+![Snap the PPD42 into the back of the ](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/shinyei_insert.jpg)  
+
+![Make sure it snaps in securely!](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/shinyei_clip.gif)
 
 2. Secure the Shinyei in place with a screw. Only make this snug, don't overtighten.
 
-![Securing Shinyei PPD42 with a #4 screw](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6278.JPG)
+![Securing Shinyei PPD42 with a #4 screw](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/secure_shinyei.jpg)
 
 3. If required, mate the Pro Micro and the adapter shield together so they snap into place. Orient the USB port on the Pro Micro with the "USB" label on the adapter board.
 
-![](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6213.JPG?raw=true)
+![Mate the Pro Micro and adapter board together](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/arduino_adapter.jpg)
 
 4. Screw the adapter board onto the front of the plastic insert so that the Pro Micro sits inside the unit.
 
-![](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6240.JPG)
+![Screw the adapter into the chassis](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/screw_adapter.JPG)
 
 ## Wiring Sensors
 ![Sensor wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/sensor_wiring.jpg)
@@ -51,7 +52,7 @@ Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 
 
 5. Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal. 
 
-![Twisting together wires and screwing into terminals](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6273.JPG)
+![Twisting together wires and screwing into terminals](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/sensor_hookuo.JPG)
 
 6. Next, do the same with the 5V wires (red). 
 
@@ -59,7 +60,7 @@ Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 
 
 7. The yellow wire from the Shinyei goes to the terminal labeled 5. The middle wire from the DHT22 (yellow or purple) goes to terminal 6.
 
-![Completed sensor wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6275.JPG?raw=true)
+![Completed sensor wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/screwterm_wiring.jpg)
 
 ## Connect the Datalogging Shield
 
@@ -77,16 +78,16 @@ SCL - yellow
 
 ![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/datashield_wiring.jpg)  
 
-![Wiring the logging shield to the adapter board](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6265.JPG)  
+![Wiring the logging shield to the adapter board](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/logger_wiring.JPG)  
 Adapter board wiring.  
 
-![Wiring power and GND](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6267.JPG)  
+![Wiring power and GND](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/power_gnd_dl.jpg)  
 5V and GND on the datalogger.
 
-![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6268.JPG)  
+![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/data_dk.jpg)  
 Wiring of pins SCL, SDA, 13, 12, 11, 10  
 
-![Completed wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6276.JPG)  
+![Completed wiring]https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/dl_complete.jpg)  
 Check your completed wiring against the wiring diagram, then attach the shield to the back of the Shinyei using velcro or rubber bands.
 
 ## Operation
@@ -104,4 +105,4 @@ If no blinking light is observed when the sensor is powered up, the first thing 
 
 Every time the device is powered on a new file is created with the naming scheme data00.txt, data01.txt, etc.
 
-![Assembled sensor](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6286.JPG)
+![Assembled sensor](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/sensor_complete.jpg)
