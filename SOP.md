@@ -65,15 +65,27 @@ Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 
 
 Wiring the datalogger consists of wiring the labeled femaled headers on the datalogger adapter with the corresponding pin on the logging shield.
 
-![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/datashield_wiring.jpg)
+Adapter board pinout:  
+5V - red  
+GND - black  
+SDA - blue  
+SCL - yellow  
+13 - green  
+12 - white  
+11 - orange  
+10 - blue  
 
-![Wiring the logging shield to the adapter board](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6265.JPG)
+![Datalogger Wiring diagram](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/datashield_wiring.jpg)  
 
-![Wiring power and GND](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6267.JPG)
+![Wiring the logging shield to the adapter board](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6265.JPG)  
+The order of the pins
 
-![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6268.JPG)
+![Wiring power and GND](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6267.JPG)  
+5V and GND wiring
 
-![Completed wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6276.JPG)
+![Wiring pins 10, 11, 12, 13, SDA, and SCL](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6268.JPG)  
+
+![Completed wiring](https://github.com/b-z-l/Bottle-Sensor/blob/master/resources/SOP%20images/IMG_6276.JPG)  
 Check your completed wiring against the wiring diagram, then attach the shield to the back of the Shinyei using velcro or rubber bands.
 
 ## Operation
