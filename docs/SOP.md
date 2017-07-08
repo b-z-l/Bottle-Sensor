@@ -23,13 +23,13 @@ Battery		                                       |      $30  | [Ebay](http://www.
 ## Software
 
 The Arduino sketch responsible for taking readings from sensors and logging them to the SD card can be found here:  
-https://github.com/b-z-l/Bottle-Sensor/blob/master/ShinyeiPPD42_Logger/ShinyeiPPD42_Logger.ino
+[](https://github.com/b-z-l/Bottle-Sensor/blob/master/ShinyeiPPD42_Logger/ShinyeiPPD42_Logger.ino)
 
 ## Assembly
 
 1. Begin by snapping the Shinyei PPD42 into place in the rear of the insert. Make sure the sensor is held by the retaining clips and sits flush against the plastic holder.
 
-![Snap the PPD42 into the back of the ](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/shinyei_insert.jpg)  
+![Snap the PPD42 into the back of the ](images/shinyei_insert.jpg)  
 
 ![Make sure it snaps in securely!](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/images/shinyei_clip.gif)
 
