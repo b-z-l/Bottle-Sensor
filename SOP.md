@@ -2,19 +2,23 @@
 
 ## Bill of Materials
 
-Item	 |                                       	Cost(USD)     | Source
---------|---------------------------------------|------------
-Shinyei PPD42NJ Dust Sensor                      	| $10|
-Arduino Pro Micro, ATMega32U4-5V 16Mhz 	        	|$4|
-Mini Datalogger with microSD card reader and RTC  |$4|
-Datalogger/Screw Terminal Adapter                 |$6|
-MicroSD Card	1                                  | $5|
-Plastic enclosure	                               | $6|
-USB Cable	                                       | $5|
-Charger	                                          |$8|
-#4 Screws x 5
-Battery		                                        |$25|
-Total | |
+Item	                                           | Cost(USD) | Source
+-------------------------------------------------|-----------|------------
+Shinyei PPD42NJ Dust Sensor                      |      $10  |
+DHT22 Temperature Humidity Sensor                |       $4  |
+Arduino Pro Micro, ATMega32U4-5V 16Mhz 	         |       $4  |
+Mini Datalogger with microSD card reader and RTC |       $4  |
+Datalogger/Screw Terminal Adapter                |       $6  |
+MicroSD Card	1                                  |       $5  |
+Plastic enclosure	                               |       $6  |
+USB Cable	                                       |       $5  |
+Charger	                                         |       $8  |
+#4 Screws x 5                                    |       $1  |
+Battery		                                       |      $25  |
+**Total                                           |      $78  |
+hTotal w/o battery or USB charger/cable           |      $40** |
+
+
 
 **Note:** Power supply note
 
