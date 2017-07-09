@@ -1,0 +1,1 @@
+>pandoc "C:\Users\ben\Desktop\Bottle-sensor\Bottle-Sensor\docs\SOP.md" --variable mainfont="Calibri" --variable documentclass="report" --latex-engine=xelatex --variable margin=.25in --columns=90 -o SOP.pdf 
