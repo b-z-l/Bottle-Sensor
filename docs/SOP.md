@@ -29,21 +29,21 @@ The Arduino sketch responsible for taking readings from sensors and logging them
 
 ## Assembly
 
-1. Begin by snapping the Shinyei PPD42 into place in the rear of the insert. Make sure the sensor is held by the retaining clips and sits flush against the plastic holder.
+1. Begin by snapping the Shinyei PPD42 into place in the rear of the insert. Make sure the sensor is held by the retaining clips and sits flush against the plastic holder.  
 
 ![Snap the PPD42 into the back of the ](images/shinyei_insert.jpg)  
 
 ![Make sure it snaps in securely!](images/shinyei_clip.gif)
 
-2. Secure the Shinyei in place with a screw. Only make this snug, don't overtighten.
+2. Secure the Shinyei in place with a screw. Only make this snug, don't overtighten.  
 
 ![Securing Shinyei PPD42 with a #4 screw](images/secure_shinyei.jpg)
 
-3. If required, mate the Pro Micro and the adapter shield together so they snap into place. Orient the USB port on the Pro Micro with the "USB" label on the adapter board.
+3. If required, mate the Pro Micro and the adapter shield together so they snap into place. Orient the USB port on the Pro Micro with the "USB" label on the adapter board.  
 
 ![Mate the Pro Micro and adapter board together](images/arduino_adapter.jpg)
 
-4. Screw the adapter board onto the front of the plastic insert so that the Pro Micro sits inside the unit.
+4. Screw the adapter board onto the front of the plastic insert so that the Pro Micro sits inside the unit.  
 
 ![Screw the adapter into the chassis](images/screw_adapter.JPG)
 
@@ -52,7 +52,7 @@ The Arduino sketch responsible for taking readings from sensors and logging them
 
 Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 must share 5V and GND connections from the screw terminal. 
 
-5. Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal. 
+5. Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal.  
 
 ![Twisting together wires and screwing into terminals](images/sensor_hookuo.JPG)
 
@@ -60,13 +60,13 @@ Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 
 
 **NOTE:** Do NOT wire the two yellow wires together!
 
-7. The yellow wire from the Shinyei goes to the terminal labeled 5. The middle wire from the DHT22 (yellow or purple) goes to terminal 6.
+7. The yellow wire from the Shinyei goes to the terminal labeled 5. The middle wire from the DHT22 (yellow or purple) goes to terminal 6.  
 
 ![Completed sensor wiring](images/screwterm_wiring.jpg)
 
 ## Connect the Datalogging Shield
 
-Wiring the datalogger consists of wiring the labeled femaled headers on the datalogger adapter with the corresponding pin on the logging shield.
+8. Wiring the datalogger consists of wiring the labeled femaled headers on the datalogger adapter with the corresponding pin on the logging shield.  
 
 Adapter board pinout:  
 5V - red  
