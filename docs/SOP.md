@@ -30,22 +30,14 @@ The Arduino sketch responsible for taking readings from sensors and logging them
 ## Assembly
 
 1. Begin by snapping the Shinyei PPD42 into place in the rear of the insert. Make sure the sensor is held by the retaining clips and sits flush against the plastic holder.  
-
 ![Snap the PPD42 into the back of the ](images/shinyei_insert.jpg)  
-
-![Make sure it snaps in securely!](images/shinyei_clip.gif)
-
+![Make sure it snaps in securely!](images/shinyei_clip.gif)  
 2. Secure the Shinyei in place with a screw. Only make this snug, don't overtighten.  
-
-![Securing Shinyei PPD42 with a #4 screw](images/secure_shinyei.jpg)
-
+![Securing Shinyei PPD42 with a #4 screw](images/secure_shinyei.jpg)  
 3. If required, mate the Pro Micro and the adapter shield together so they snap into place. Orient the USB port on the Pro Micro with the "USB" label on the adapter board.  
-
-![Mate the Pro Micro and adapter board together](images/arduino_adapter.jpg)
-
+![Mate the Pro Micro and adapter board together](images/arduino_adapter.jpg)  
 4. Screw the adapter board onto the front of the plastic insert so that the Pro Micro sits inside the unit.  
-
-![Screw the adapter into the chassis](images/screw_adapter.JPG)
+![Screw the adapter into the chassis](images/screw_adapter.JPG)  
 
 ## Wiring Sensors
 ![Sensor wiring diagram](images/sensor_wiring.jpg)
