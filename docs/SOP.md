@@ -27,7 +27,7 @@ USB Battery                                      |      $30  | [Ebay](http://www
 ## Software
 
 The Arduino sketch responsible for taking readings from sensors and logging them to the SD card can be found here:  
-[](https://github.com/b-z-l/Bottle-Sensor/blob/master/ShinyeiPPD42_Logger/ShinyeiPPD42_Logger.ino)
+[https://github.com/b-z-l/Bottle-Sensor/blob/master/ShinyeiPPD42_Logger/ShinyeiPPD42_Logger.ino](https://github.com/b-z-l/Bottle-Sensor/blob/master/ShinyeiPPD42_Logger/ShinyeiPPD42_Logger.ino)
 
 ## Assembly
 
