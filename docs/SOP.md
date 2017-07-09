@@ -93,7 +93,7 @@ Check your completed wiring against the wiring diagram, then attach the shield t
 You should be ready to go! Make sure a [properly formatted](https://www.sdcard.org/downloads/formatter_4/) SD card is plugged in all the way and plug the Pro Micro into USB power.
 
 
-### Blinking lights?
+### Success = Blinking Lights
 
 When the device is powered on, sucessful initialization is indicated by an LED which **blinks 10 times**. A data record is logged every 30 seconds, indicated by a single LED blink. 
 
