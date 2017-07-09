@@ -22,7 +22,7 @@ USB Battery                                      |      $30  | [Ebay](http://www
 **Total w/o battery or USB charger**             |    **$39**|  
 
 
-**Note:** The Shinyei PPD42 is sensitive to small fluctuations in voltage, so using quality power supply components is recommended. Because the quality of USB chargers vary widely it is recommended to use a USB battery or charger from a major manufacturer.  [See here for more information on USB charger quality](http://www.righto.com/2012/10/a-dozen-usb-chargers-in-lab-apple-is.html).
+**Note:** The Shinyei PPD42 is sensitive to small fluctuations in voltage. Because the quality of USB chargers vary widely it is recommended to use a USB battery or charger from a major manufacturer.  [See here for more information on USB charger quality](http://www.righto.com/2012/10/a-dozen-usb-chargers-in-lab-apple-is.html).
 
 ## Software
 
@@ -53,6 +53,7 @@ Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 
 ![Twisting together wires and screwing into terminals](images/sensor_hookuo.JPG)
 
 6\. Next, do the same with the 5V wires (red).   
+
 **NOTE:** Do NOT wire the two yellow wires together!
 
 7\. The yellow wire from the Shinyei goes to the terminal labeled 5. The middle wire from the DHT22 (yellow or purple) goes to terminal number 6.  
