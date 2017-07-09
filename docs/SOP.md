@@ -97,7 +97,7 @@ You should be ready to go! Make sure a [properly formatted](https://www.sdcard.o
 
 When the device is powered on, sucessful initialization is indicated by an LED which **blinks 10 times**. A data record is logged every 30 seconds, indicated by a single LED blink. 
 
-If no blinking light is observed when the sensor is powered up, the first thing to check is for the correct wiring of the SD card shield and that the card is well seated in it's holder.
+If no blinking light is observed when the sensor is powered up, the first thing to check is for the correct wiring of the SD card shield and that the SD card is properly seated in its holder.
 
 ### Pulling Data
 
