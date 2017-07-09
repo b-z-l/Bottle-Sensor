@@ -1,6 +1,8 @@
 # Small Sensor Operational Overview
 
-Assembly instructions and operation of a user assembled particulate sensor logger based around the Shinyei PPD42 dust sensor and DHT22 temperature and humidity sensor. This file is available as a [PDF](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/SOP.pdf) or [website](https://b-z-l.github.io/Bottle-Sensor/SOP)
+Assembly instructions and operation of a user assembled particulate sensor logger based around the Shinyei PPD42 dust sensor and DHT22 temperature and humidity sensor. 
+
+This document is available as a [PDF](https://github.com/b-z-l/Bottle-Sensor/blob/master/docs/SOP.pdf) or [on the web](https://b-z-l.github.io/Bottle-Sensor/SOP)
 
 ## Bill of Materials
 
