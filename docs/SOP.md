@@ -50,7 +50,7 @@ Wire the sensors to the Arduino using the screw terminal. The Shinyei and DHT22 
 5\. Start by twisting the GND wires (black, brown, or gray) from the Shinyei and DHT22 together and secure them into the GND terminal.  
 ![Twisting together wires and screwing into terminals](images/sensor_hookuo.JPG)
 
-6\. Next, do the same with the 5V wires (red).
+6\. Next, do the same with the 5V wires (red).   
 **NOTE:** Do NOT wire the two yellow wires together!
 
 7\. The yellow wire from the Shinyei goes to the terminal labeled 5. The middle wire from the DHT22 (yellow or purple) goes to terminal number 6.  
